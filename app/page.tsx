@@ -1,7 +1,13 @@
 import Image from "next/image";
-
+import Hero from "./components/Hero";
+import Services from "./components/Services" 
+import CaseStudiesSection from "./components/CaseStudies";
 export default function Home() {
   return(
-    <h1>Hello duniyaaa!</h1>
+    <>
+      <Hero/>
+      <Services/>
+      <CaseStudiesSection/>
+    </>
   )
 }
