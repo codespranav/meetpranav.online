@@ -29,7 +29,7 @@ export default function Hero() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1]">
             Professional Freelance <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">
-              Web Designer in Jaipur.
+              Web Developer in Jaipur.
             </span>
             <span className="block text-[#84CC16] italic font-serif mt-2 font-normal">
               Building High-Converting Websites
