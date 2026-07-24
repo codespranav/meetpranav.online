@@ -104,23 +104,23 @@ export default function ContactPage() {
               </h2>
               
               <div className="space-y-5 text-sm">
-                <a href="tel:+919745320424" className="flex items-start gap-4 group p-3 rounded-xl hover:bg-white/5 transition-colors">
+                <a href="tel:+917643067263" className="flex items-start gap-4 group p-3 rounded-xl hover:bg-white/5 transition-colors">
                   <div className="p-3 bg-[#0B1E0F] border border-green-800/40 rounded-xl text-[#84CC16] group-hover:scale-110 transition-transform">
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
                     <div className="text-xs text-gray-400 font-medium">Call or WhatsApp</div>
-                    <div className="text-white font-semibold group-hover:text-[#84CC16] transition-colors">+91 9745 320 424</div>
+                    <div className="text-white font-semibold group-hover:text-[#84CC16] transition-colors">+91 7643 067 263</div>
                   </div>
                 </a>
 
-                <a href="mailto:contact@pranavbuilds.co" className="flex items-start gap-4 group p-3 rounded-xl hover:bg-white/5 transition-colors">
+                <a href="mailto:meetpranavonline@gmail.com" className="flex items-start gap-4 group p-3 rounded-xl hover:bg-white/5 transition-colors">
                   <div className="p-3 bg-[#0B1E0F] border border-green-800/40 rounded-xl text-[#84CC16] group-hover:scale-110 transition-transform">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
                     <div className="text-xs text-gray-400 font-medium">Email Directly</div>
-                    <div className="text-white font-semibold group-hover:text-[#84CC16] transition-colors">contact@pranavbuilds.co</div>
+                    <div className="text-white font-semibold group-hover:text-[#84CC16] transition-colors">meetpranavonline@gmail.com</div>
                   </div>
                 </a>
 
@@ -130,7 +130,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-xs text-gray-400 font-medium">Location</div>
-                    <div className="text-white font-semibold">Kozhikode, Kerala, India</div>
+                    <div className="text-white font-semibold">Jaipur, Rajasthan India</div>
                   </div>
                 </div>
 
