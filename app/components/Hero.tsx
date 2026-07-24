@@ -138,14 +138,14 @@ export default function Hero() {
       {/* Floating Sticky Actions */}
       <div className="fixed right-4 bottom-10 z-50 flex flex-col gap-3">
         <a 
-          href="tel:+919745320424" 
+          href="tel:+917643067263" 
           className="w-11 h-11 bg-blue-600 hover:bg-blue-700 text-white rounded-xl flex items-center justify-center shadow-lg transition-transform hover:scale-110"
           aria-label="Call"
         >
           <Phone className="w-5 h-5" />
         </a>
         <a 
-          href="https://wa.me/919745320424" 
+          href="https://wa.me/917643067263" 
           target="_blank" 
           rel="noreferrer"
           className="w-11 h-11 bg-emerald-500 hover:bg-emerald-600 text-white rounded-xl flex items-center justify-center shadow-lg transition-transform hover:scale-110"
