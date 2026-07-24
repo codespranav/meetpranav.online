@@ -115,7 +115,7 @@ export default function Navbar() {
             {/* Search Trigger Icon */}
             <button 
               aria-label="Search"
-              className="p-2 rounded-full text-gray-300 hover:text-white hover:bg-white/5 transition-colors"
+              className="hidden md:block p-2 rounded-full text-gray-300 hover:text-white hover:bg-white/5 transition-colors"
             >
               <Search className="w-4 h-4" />
             </button>
@@ -123,7 +123,7 @@ export default function Navbar() {
             {/* Glowing CTA Button */}
             <Link
               href="/quote"
-              className="relative inline-flex items-center gap-2 bg-[#84CC16] hover:bg-[#73b511] text-black font-bold text-xs px-4 py-2 rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(132,204,22,0.3)] hover:shadow-[0_0_25px_rgba(132,204,22,0.5)] transform hover:-translate-y-0.5"
+              className="hidden relative md:inline-flex items-center gap-2 bg-[#84CC16] hover:bg-[#73b511] text-black font-bold text-xs px-4 py-2 rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(132,204,22,0.3)] hover:shadow-[0_0_25px_rgba(132,204,22,0.5)] transform hover:-translate-y-0.5"
             >
               <Send className="w-3.5 h-3.5 -rotate-12" />
               <span>Get Free Quote</span>
@@ -150,6 +150,14 @@ export default function Navbar() {
           <Link href="/blog" className="block text-sm text-gray-300 hover:text-[#84CC16]">Blog</Link>
           <Link href="/about" className="block text-sm text-gray-300 hover:text-[#84CC16]">About Me</Link>
           <Link href="/contact" className="block text-sm text-gray-300 hover:text-[#84CC16]">Contact</Link>
+
+          <Link
+              href="/quote"
+              className="relative inline-flex items-center gap-2 bg-[#84CC16] hover:bg-[#73b511] text-black font-bold text-xs p-3 rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(132,204,22,0.3)] hover:shadow-[0_0_25px_rgba(132,204,22,0.5)] transform hover:-translate-y-0.5 w-full text-center justify-center"
+            >
+              <Send className="w-3.5 h-3.5 -rotate-12" />
+              <span>Get Free Quote</span>
+            </Link>
         </div>
       )}
     </header>
