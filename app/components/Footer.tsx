@@ -44,25 +44,25 @@ export default function Footer() {
             </p>
 
             <div className="space-y-3 pt-2 text-xs text-gray-300">
-              <a href="tel:+910000000000" className="flex items-center gap-3 hover:text-[#84CC16] transition-colors">
+              <a href="tel:+917643067263" className="flex items-center gap-3 hover:text-[#84CC16] transition-colors">
                 <div className="p-2 rounded-lg bg-[#09131A] border border-gray-800 text-[#84CC16]">
                   <Phone className="w-3.5 h-3.5" />
                 </div>
-                <span>+91 9745 320 424</span>
+                <span>+91 7643 067 263</span>
               </a>
 
-              <a href="mailto:contact@pranavbuilds.co" className="flex items-center gap-3 hover:text-[#84CC16] transition-colors">
+              <a href="mailto:meetpranavonline@gmail.com" className="flex items-center gap-3 hover:text-[#84CC16] transition-colors">
                 <div className="p-2 rounded-lg bg-[#09131A] border border-gray-800 text-[#84CC16]">
                   <Mail className="w-3.5 h-3.5" />
                 </div>
-                <span>contact@pranavbuilds.co</span>
+                <span>meetpranavonline@gmail.com</span>
               </a>
 
               <div className="flex items-center gap-3">
                 <div className="p-2 rounded-lg bg-[#09131A] border border-gray-800 text-[#84CC16]">
                   <MapPin className="w-3.5 h-3.5" />
                 </div>
-                <span>Kozhikode, Kerala, India</span>
+                <span>Jaipur, Rajasthan, India</span>
               </div>
             </div>
           </div>
