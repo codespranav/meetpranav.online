@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 
   title: {
     default: "Meet Pranav | Web Development Agency for Modern Businesses",
-    template: "%s | Meet Pranav",
+    template: "%s | Pranav Singh",
   },
 
   description:
-    "Meet Pranav helps startups, creators, and businesses build premium websites, web apps, landing pages, dashboards, and digital experiences that convert visitors into customers.",
+    "Pranav helps startups, creators, and businesses build premium websites, web apps, landing pages, dashboards, and digital experiences that convert visitors into customers.",
 
   keywords: [
     "Meet Pranav",
